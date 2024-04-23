@@ -1,0 +1,992 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: 32
+  verticalOffset: -123
+addInfo:
+  tasks: []
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Dashed Straight ConnectorP5uCE
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 879
+      y: 358.07
+    targetPoint:
+      x: 825
+      y: 357.19
+    sourceID: NvidiaedLaw
+    targetID: Branded Logical Groupp5uGl
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Orthogonal Connectoruq6D2
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 500.5
+      y: 434
+    targetPoint:
+      x: 346
+      y: 404
+    sourceID: MetayqMBO
+    targetID: UnslothTfIIq
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Orthogonal ConnectorZMDrR
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 500.5
+      y: 434
+    targetPoint:
+      x: 661
+      y: 404
+    sourceID: MetayqMBO
+    targetID: Hugging FaceScU3o
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Orthogonal ConnectorTPSTH
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 346
+      y: 304
+    targetPoint:
+      x: 494.5
+      y: 267
+    sourceID: UnslothTfIIq
+    targetID: MetayqMBOTBcw2
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Orthogonal ConnectorNZbBV
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 661
+      y: 304
+    targetPoint:
+      x: 494.5
+      y: 267
+    sourceID: Hugging FaceScU3o
+    targetID: MetayqMBOTBcw2
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Orthogonal ConnectorUH5Fx
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: -5.5
+      y: 434
+    targetPoint:
+      x: 346
+      y: 404
+    sourceID: PythonmrWml
+    targetID: UnslothTfIIq
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Dashed Orthogonal ConnectorFT5mW
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: -5.5
+      y: 434
+    targetPoint:
+      x: 661
+      y: 404
+    sourceID: PythonmrWml
+    targetID: Hugging FaceScU3o
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Straight ConnectorT2QWL
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 453.49
+      y: 167
+    targetPoint:
+      x: 410.85
+      y: 115
+    sourceID: MetayqMBOTBcw2
+    targetID: Web ApplicationQPHsP
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+  - id: Straight ConnectorAlDah
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 494.5
+      y: 167
+    targetPoint:
+      x: 494.5
+      y: 115
+    sourceID: MetayqMBOTBcw2
+    targetID: Digital AgentQxMpE
+    addInfo:
+      viewConnector: 0
+    zIndex: 18
+  - id: Straight Connectorkmt7V
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 527.73
+      y: 167
+    targetPoint:
+      x: 562.29
+      y: 115
+    sourceID: MetayqMBOTBcw2
+    targetID: Processing ToolIOS57
+    addInfo:
+      viewConnector: 0
+    zIndex: 19
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: rgb(33, 33, 33);"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_Black_87_len9hh.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_emsr7w.png);"></div><div
+        class="c-text"><div class="c-title">Unsloth</div><div
+        class="c-short-description">Unsloth offers open-source finetuning to
+        speed up AI and LLMs</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Unsloth</div></div></div></div></div>'
+    id: UnslothTfIIq
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Unsloth
+        shortDescription: Unsloth offers open-source finetuning to speed up AI and LLMs
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Unsloth
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Unsloth
+      editableName: Unsloth
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Unsloth
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_emsr7w.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth__044448_yjyeeh.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_Black_87_len9hh.png
+      color: rgb(33, 33, 33)
+      controlText: Unsloth
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 345.99999999999994
+    offsetY: 354
+    zIndex: 1
+    inEdges:
+      - Orthogonal Connectoruq6D2
+      - Dashed Orthogonal ConnectorUH5Fx
+    outEdges:
+      - Orthogonal ConnectorTPSTH
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);"></div><div
+        class="c-text"><div class="c-title">Hugging Face Libraries</div><div
+        class="c-short-description">Developing and implementing state-of-the-art
+        natural language processing models and tools</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Hugging Face</div></div></div></div></div>'
+    id: Hugging FaceScU3o
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+        shortDescription: Developing and implementing state-of-the-art natural language
+          processing models and tools
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Hugging Face Libraries
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 661
+    offsetY: 354
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorZMDrR
+      - Dashed Orthogonal ConnectorFT5mW
+    outEdges:
+      - Orthogonal ConnectorNZbBV
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682862873/sds_logos/Google_Colab_Black_87_sjvxq1.png)">
+                </div>
+              </div>
+    id: Branded Logical Groupp5uGl
+    width: 639.9999999999999
+    height: 394.00000000000006
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 505
+    offsetY: 352
+    annotations:
+      - id: QroHS
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://res.cloudinary.com/dwohyn92h/image/upload/v1682862873/sds_logos/Google_Colab_Black_87_sjvxq1.png
+      size: lg
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectorP5uCE
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #5A821F;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png);"></div><div
+        class="c-text"><div class="c-title">Nvidia A100</div><div
+        class="c-short-description">A100 GPU to maximize context length (RoPE
+        scaling)</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Nvidia</div></div></div></div></div>'
+    id: NvidiaedLaw
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Nvidia
+        shortDescription: A100 GPU to maximize context length (RoPE scaling)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Nvidia
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Nvidia
+      editableName: Nvidia A100
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Nvidia
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia__044448_mn6spy.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png
+      color: "#5A821F"
+      controlText: Nvidia
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1029
+    offsetY: 360.5
+    zIndex: 3
+    outEdges:
+      - Dashed Straight ConnectorP5uCE
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">Meta Llama-3 Base Model</div><div
+        class="c-short-description">Recently released Llama-3 LLM</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Meta</div></div></div></div></div>'
+    id: MetayqMBO
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Meta
+        shortDescription: Recently released Llama-3 LLM
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Meta
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Meta
+      editableName: Meta Llama-3 Base Model
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Meta
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Meta
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 500.49999999999994
+    offsetY: 484
+    zIndex: 5
+    outEdges:
+      - Orthogonal Connectoruq6D2
+      - Orthogonal ConnectorZMDrR
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">Fine Tuned Llama-3 Model</div><div
+        class="c-short-description">Recently released Llama-3 LLM, but
+        fine-tuned on our own data</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Meta</div></div></div></div></div>'
+    id: MetayqMBOTBcw2
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Meta
+        shortDescription: Recently released Llama-3 LLM, but fine-tuned on our own data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Meta
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Meta
+      editableName: Fine Tuned Llama-3 Model
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Meta
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Meta
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 494.49999999999994
+    offsetY: 217
+    zIndex: 6
+    inEdges:
+      - Orthogonal ConnectorTPSTH
+      - Orthogonal ConnectorNZbBV
+    outEdges:
+      - Straight ConnectorT2QWL
+      - Straight ConnectorAlDah
+      - Straight Connectorkmt7V
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);"></div><div
+        class="c-text"><div class="c-title">Fine-Tuning Dataset
+        Compilation</div><div class="c-short-description">Simple Python script
+        for using our own data in the fine-tuning</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Python</div></div></div></div></div>'
+    id: PythonmrWml
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+        shortDescription: Simple Python script for using our own data in the fine-tuning
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Fine-Tuning Dataset Compilation
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+    width: 358.99999999999994
+    height: 100
+    offsetX: -5.499999999999943
+    offsetY: 484
+    zIndex: 11
+    outEdges:
+      - Dashed Orthogonal ConnectorUH5Fx
+      - Dashed Orthogonal ConnectorFT5mW
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Web
+        Application</div></div><hr class="c-underrule" style="background-color:
+        #3d5c5c"></div>'
+    id: Web ApplicationQPHsP
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Web Application
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 151
+    height: 124
+    offsetX: 360
+    offsetY: 53
+    zIndex: 14
+    inEdges:
+      - Straight ConnectorT2QWL
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #65616b; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Tool_Black_87_vqeehb.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Tool_Black_65616b_v8wurw.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Pipeline</div></div><hr class="c-underrule"
+        style="background-color: #65616b"></div>'
+    id: Processing ToolIOS57
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Processing Tool
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Processing Tool
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Processing Tool
+      editableName: Pipeline
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Processing Tool
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Tool_Black_65616b_v8wurw.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Tool_Black_pc1orp.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Tool_Black_87_vqeehb.png
+      controlText: Processing Tool
+      color: "#65616b"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 603.5
+    offsetY: 53
+    zIndex: 15
+    inEdges:
+      - Straight Connectorkmt7V
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #433F3E; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_Black_87_znnj7m.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_zw2rly.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Chatbot</div></div><hr class="c-underrule"
+        style="background-color: #433F3E"></div>'
+    id: Digital AgentQxMpE
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Digital Agent
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Digital Agent
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Digital Agent
+      editableName: Chatbot
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Digital Agent
+      category: 5
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_zw2rly.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot__044448_z5legv.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Bot_Black_87_znnj7m.png
+      controlText: Digital Agent
+      color: "#433F3E"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 494.5
+    offsetY: 53
+    zIndex: 16
+    inEdges:
+      - Straight ConnectorAlDah
+selectedItems:
+  width: 0
+  height: 0
